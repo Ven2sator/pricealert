@@ -1,0 +1,2 @@
+playwright>=1.40
+plyer>=2.1  # nur für native Notifications unter Windows, sonst optional

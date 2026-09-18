@@ -1,0 +1,24 @@
+{
+  "database": "~/price_watcher.db",
+  "check_interval_minutes": 60,
+  "watches": [
+    {
+      "name": "Berlin Wochenende",
+      "region": "Berlin",
+      "checkin": "2026-10-10",
+      "checkout": "2026-10-12",
+      "adults": 2,
+      "max_results": 5,
+      "target_price": 150.0
+    },
+    {
+      "name": "München Kurztrip",
+      "region": "München",
+      "checkin": "2026-11-05",
+      "checkout": "2026-11-07",
+      "adults": 2,
+      "max_results": 5,
+      "target_price": 120.0
+    }
+  ]
+}
